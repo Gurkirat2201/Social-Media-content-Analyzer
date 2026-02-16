@@ -1,0 +1,62 @@
+# Social Media Content Analyzer
+
+The Social Media Content Analyzer is a full-stack web application that analyzes social media content from uploaded PDF or image files and provides suggestions to improve engagement.
+
+This project was developed as part of a technical assessment for a Software Engineering position.
+
+project approach:
+
+The Social Media Content Analyzer is a full-stack web application designed to analyze textual content from uploaded documents and provide engagement improvement suggestions. The frontend is built using React with Vite, providing a clean and responsive user interface that allows users to upload PDF or image files easily.
+
+The backend is developed using Node.js and Express.js. Multer is used to handle file uploads securely. Once a file is uploaded, the backend processes the request and generates engagement suggestions based on predefined content quality heuristics such as content length, clarity, and call-to-action presence.
+
+The application follows a clear separation of concerns, with frontend components responsible for UI and user interaction, and backend APIs handling business logic. Basic error handling is implemented to manage invalid uploads and server issues.
+
+The project emphasizes simplicity, readability, and maintainability while fulfilling all required features. It can be extended further by integrating advanced OCR, sentiment analysis, or AI-based content scoring models. This approach ensures the application is functional, scalable, and aligned with real-world software engineering practices.
+
+---
+
+## 🚀 Features
+
+- Upload PDF files or image files
+- Backend processes uploaded documents
+- Provides engagement improvement suggestions
+- Clean and simple user interface
+- REST API-based architecture
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React (Vite)
+- JavaScript
+- HTML & CSS
+
+### Backend
+- Node.js
+- Express.js
+- Multer (file upload handling)
+- CORS
+
+---
+
+## 📂 Project Structure
+
+
+---
+
+## ▶️ How to Run the Project Locally
+
+1. Start Backend Server
+
+```bash
+cd backend
+npm install
+node server.js
+
+2. Start front end  Server
+
+ cd frontend
+npm install
+npm run dev
